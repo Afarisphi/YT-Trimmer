@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube Trimmer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>YouTube Trimmer</h2>
+
+    <label for="start">Start Time (mm:ss)</label>
+    <input id="start" type="text" placeholder="ex: 2:30" />
+
+    <label for="end">End Time (mm:ss)</label>
+    <input id="end" type="text" placeholder="ex: 4:30" />
+
+    <label class="checkbox">
+      <input type="checkbox" id="loop" />
+      Loop video
+    </label>
+
+    <button id="apply">Start Trimmer</button>
+    <button id="stop" class="secondary">Stop Trimmer</button>
+
+    <p id="currentRange" class="note"></p>
+  </div>
+
+  <div class="footer">
+    <a href="https://trakteer.id/qbvt" target="_blank">Support me!</a> — Made by 
+    <a href="https://www.instagram.com/afarisphi/" target="_blank">Afarisphi</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

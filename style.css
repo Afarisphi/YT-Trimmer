@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1A202C;
+  color: #E2E8F0;
+}
+
+.container {
+  padding: 15px;
+  width: 250px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #63B3ED;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #4A5568;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #2D3748;
+  color: #E2E8F0;
+}
+
+.checkbox {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px;
+  width: 100%;
+  background-color: #4299E1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3182CE;
+}
+
+button.secondary {
+  background-color: #A0AEC0;
+  color: #2D3748;
+  margin-top: 6px;
+}
+
+button.secondary:hover {
+  background-color: #718096;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 11px;
+  color: #A0AEC0;
+  text-align: center;
+}
+
+.footer {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-align: center;
+  color: #718096;
+}
+
+.footer a {
+  color: #63B3ED;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

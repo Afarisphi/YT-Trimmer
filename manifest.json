@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Trimmer",
+  "version": "1.0",
+  "description": "Trim YouTube videos between specific start and end times.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon_trimmer.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/watch*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
