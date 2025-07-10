@@ -91,16 +91,3 @@ button.secondary:hover {
 .footer a:hover {
   text-decoration: underline;
 }
-
-/* Hilangkan spinner panah dari input number */
-input[type=number]::-webkit-outer-spin-button,
-input[type=number]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type=number] {
-  -moz-appearance: textfield;
-  width: 2.5em;
-  text-align: center;
-}
